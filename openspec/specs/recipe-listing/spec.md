@@ -23,7 +23,7 @@ The system SHALL display a loading indicator while recipes are being fetched.
 - **THEN** the loading indicator is removed and recipe cards are displayed
 
 ### Requirement: Display recipes as cards
-The system SHALL render each recipe as a card containing the recipe image, name, category, difficulty level, and preparation time.
+The system SHALL render each recipe as a card containing the recipe image, name, category, difficulty level, and preparation time. Each card SHALL be a clickable link that navigates to the recipe detail page at `/recipes/:id`.
 
 #### Scenario: Card displays all required fields
 - **WHEN** a recipe is rendered
@@ -32,6 +32,14 @@ The system SHALL render each recipe as a card containing the recipe image, name,
 #### Scenario: Missing image fallback
 - **WHEN** a recipe has no image or the image URL is invalid
 - **THEN** the card displays a placeholder image
+
+#### Scenario: Card navigates to detail
+- **WHEN** the user clicks on a recipe card
+- **THEN** the application navigates to `/recipes/:id` where `:id` is the recipe's ID
+
+#### Scenario: Card is accessible as link
+- **WHEN** a recipe card is rendered
+- **THEN** it is implemented as a `<Link>` element so it supports standard link behaviors (right-click, open in new tab)
 
 ### Requirement: Responsive card grid layout
 The system SHALL display recipe cards in a responsive grid: 1 column on mobile, 2 columns on tablet, and 3 columns on desktop.
