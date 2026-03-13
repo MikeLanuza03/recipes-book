@@ -1,0 +1,60 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Tacos al Pastor",
+      "image": "https://picsum.photos/seed/tacos/400/300",
+      "category": "Mexicana",
+      "difficulty": "Media",
+      "prepTime": "45 min"
+    },
+    {
+      "id": 2,
+      "name": "Pasta Carbonara",
+      "image": "https://picsum.photos/seed/carbonara/400/300",
+      "category": "Italiana",
+      "difficulty": "Fácil",
+      "prepTime": "25 min"
+    },
+    {
+      "id": 3,
+      "name": "Sushi Roll",
+      "image": "https://picsum.photos/seed/sushi/400/300",
+      "category": "Japonesa",
+      "difficulty": "Difícil",
+      "prepTime": "60 min"
+    },
+    {
+      "id": 4,
+      "name": "Ensalada César",
+      "image": "https://picsum.photos/seed/caesar/400/300",
+      "category": "Ensaladas",
+      "difficulty": "Fácil",
+      "prepTime": "15 min"
+    },
+    {
+      "id": 5,
+      "name": "Paella Valenciana",
+      "image": "https://picsum.photos/seed/paella/400/300",
+      "category": "Española",
+      "difficulty": "Difícil",
+      "prepTime": "90 min"
+    },
+    {
+      "id": 6,
+      "name": "Pad Thai",
+      "image": "https://picsum.photos/seed/padthai/400/300",
+      "category": "Tailandesa",
+      "difficulty": "Media",
+      "prepTime": "30 min"
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Mexicana" },
+    { "id": 2, "name": "Italiana" },
+    { "id": 3, "name": "Japonesa" },
+    { "id": 4, "name": "Ensaladas" },
+    { "id": 5, "name": "Española" },
+    { "id": 6, "name": "Tailandesa" }
+  ]
+}
