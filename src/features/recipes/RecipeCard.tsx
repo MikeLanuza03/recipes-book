@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import type { Recipe } from "./types";
 
 interface RecipeCardProps {
@@ -11,7 +12,10 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
   const [imgError, setImgError] = useState(false);
 
   return (
-    <div className="overflow-hidden rounded-xl bg-white shadow-md">
+    <Link
+      to={`/recipes/${recipe.id}`}
+      className="block overflow-hidden rounded-xl bg-white shadow-md transition-shadow hover:shadow-lg"
+    >
       <img
         src={imgError || !recipe.image ? PLACEHOLDER_IMAGE : recipe.image}
         alt={recipe.name}
@@ -32,6 +36,6 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
           </span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

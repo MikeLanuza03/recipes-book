@@ -6,7 +6,29 @@
       "image": "https://picsum.photos/seed/tacos/400/300",
       "category": "Mexicana",
       "difficulty": "Media",
-      "prepTime": "45 min"
+      "prepTime": "45 min",
+      "description": "Deliciosos tacos de cerdo marinado con piña, cilantro y cebolla. Una receta clásica de la cocina callejera mexicana.",
+      "ingredients": [
+        "500g de carne de cerdo",
+        "3 chiles guajillo",
+        "1 piña",
+        "1 cebolla blanca",
+        "Cilantro fresco",
+        "Tortillas de maíz",
+        "Achiote",
+        "Jugo de naranja",
+        "Sal y pimienta"
+      ],
+      "steps": [
+        "Remojar los chiles guajillo en agua caliente por 15 minutos.",
+        "Licuar los chiles con achiote, jugo de naranja, sal y pimienta para hacer la marinada.",
+        "Cortar la carne en láminas finas y marinar por al menos 2 horas.",
+        "Cortar la piña en rodajas y la cebolla en aros.",
+        "Asar la carne en un comal o sartén a fuego alto.",
+        "Asar la piña y la cebolla junto con la carne.",
+        "Picar la carne, piña y cebolla en trozos pequeños.",
+        "Servir en tortillas calientes con cilantro fresco."
+      ]
     },
     {
       "id": 2,
@@ -14,7 +36,26 @@
       "image": "https://picsum.photos/seed/carbonara/400/300",
       "category": "Italiana",
       "difficulty": "Fácil",
-      "prepTime": "25 min"
+      "prepTime": "25 min",
+      "description": "Pasta cremosa con huevo, queso pecorino, guanciale y pimienta negra. La auténtica receta romana sin nata.",
+      "ingredients": [
+        "400g de spaghetti",
+        "200g de guanciale",
+        "4 yemas de huevo",
+        "100g de queso pecorino rallado",
+        "Pimienta negra recién molida",
+        "Sal"
+      ],
+      "steps": [
+        "Cocinar la pasta en agua con sal abundante hasta que esté al dente.",
+        "Cortar el guanciale en tiras y dorarlo en una sartén sin aceite.",
+        "Mezclar las yemas con el pecorino rallado y pimienta negra.",
+        "Escurrir la pasta reservando un poco del agua de cocción.",
+        "Retirar la sartén del fuego y añadir la pasta al guanciale.",
+        "Verter la mezcla de huevo y queso sobre la pasta, revolviendo rápidamente.",
+        "Ajustar la cremosidad con agua de cocción reservada.",
+        "Servir inmediatamente con más pecorino y pimienta."
+      ]
     },
     {
       "id": 3,
@@ -22,7 +63,32 @@
       "image": "https://picsum.photos/seed/sushi/400/300",
       "category": "Japonesa",
       "difficulty": "Difícil",
-      "prepTime": "60 min"
+      "prepTime": "60 min",
+      "description": "Rollos de sushi maki con arroz sazonado, pescado fresco y vegetales envueltos en alga nori.",
+      "ingredients": [
+        "2 tazas de arroz para sushi",
+        "3 cucharadas de vinagre de arroz",
+        "1 cucharada de azúcar",
+        "Hojas de alga nori",
+        "200g de salmón fresco",
+        "1 pepino",
+        "1 aguacate",
+        "Salsa de soya",
+        "Wasabi",
+        "Jengibre encurtido"
+      ],
+      "steps": [
+        "Lavar el arroz varias veces hasta que el agua salga clara.",
+        "Cocinar el arroz y sazonarlo con vinagre, azúcar y sal.",
+        "Dejar enfriar el arroz a temperatura ambiente.",
+        "Cortar el salmón, pepino y aguacate en tiras largas y finas.",
+        "Colocar una hoja de nori sobre la esterilla de bambú.",
+        "Extender una capa fina de arroz sobre el nori dejando un borde libre.",
+        "Colocar las tiras de salmón, pepino y aguacate en el centro.",
+        "Enrollar firmemente usando la esterilla de bambú.",
+        "Cortar el rollo en 8 piezas con un cuchillo húmedo.",
+        "Servir con salsa de soya, wasabi y jengibre encurtido."
+      ]
     },
     {
       "id": 4,
@@ -30,7 +96,29 @@
       "image": "https://picsum.photos/seed/caesar/400/300",
       "category": "Ensaladas",
       "difficulty": "Fácil",
-      "prepTime": "15 min"
+      "prepTime": "15 min",
+      "description": "Ensalada clásica con lechuga romana, crutones crujientes, queso parmesano y el famoso aderezo César.",
+      "ingredients": [
+        "1 lechuga romana grande",
+        "100g de queso parmesano",
+        "Pan para crutones",
+        "2 dientes de ajo",
+        "2 anchoas",
+        "1 yema de huevo",
+        "Jugo de limón",
+        "Aceite de oliva",
+        "Mostaza Dijon",
+        "Sal y pimienta"
+      ],
+      "steps": [
+        "Cortar el pan en cubos y tostarlos en el horno con aceite y ajo.",
+        "Lavar y secar la lechuga, cortarla en trozos grandes.",
+        "Preparar el aderezo: mezclar yema, anchoas, ajo, mostaza y limón.",
+        "Añadir aceite de oliva en hilo fino mientras se bate para emulsionar.",
+        "Mezclar la lechuga con el aderezo en un bowl grande.",
+        "Añadir los crutones y el parmesano rallado.",
+        "Servir inmediatamente."
+      ]
     },
     {
       "id": 5,
@@ -38,7 +126,33 @@
       "image": "https://picsum.photos/seed/paella/400/300",
       "category": "Española",
       "difficulty": "Difícil",
-      "prepTime": "90 min"
+      "prepTime": "90 min",
+      "description": "La tradicional paella valenciana con arroz, pollo, conejo, judías verdes y garrofón, cocinada a fuego de leña.",
+      "ingredients": [
+        "400g de arroz bomba",
+        "300g de pollo troceado",
+        "300g de conejo troceado",
+        "200g de judías verdes",
+        "100g de garrofón",
+        "2 tomates rallados",
+        "Azafrán",
+        "Pimentón dulce",
+        "Aceite de oliva",
+        "Sal",
+        "Romero",
+        "1 litro de caldo de pollo"
+      ],
+      "steps": [
+        "Calentar aceite en la paellera y dorar el pollo y el conejo.",
+        "Añadir las judías verdes y el garrofón, sofreír unos minutos.",
+        "Agregar el tomate rallado y cocinar hasta que oscurezca.",
+        "Añadir el pimentón, remover rápidamente para que no se queme.",
+        "Verter el caldo caliente y añadir el azafrán y la sal.",
+        "Dejar hervir a fuego fuerte durante 20 minutos.",
+        "Repartir el arroz uniformemente y cocinar 10 minutos a fuego fuerte.",
+        "Bajar el fuego y cocinar 8 minutos más hasta que el arroz absorba el caldo.",
+        "Dejar reposar 5 minutos tapando con un paño antes de servir."
+      ]
     },
     {
       "id": 6,
@@ -46,7 +160,32 @@
       "image": "https://picsum.photos/seed/padthai/400/300",
       "category": "Tailandesa",
       "difficulty": "Media",
-      "prepTime": "30 min"
+      "prepTime": "30 min",
+      "description": "Fideos de arroz salteados al wok con camarones, tofu, brotes de soya, cacahuates y la clásica salsa agridulce tailandesa.",
+      "ingredients": [
+        "250g de fideos de arroz",
+        "200g de camarones",
+        "100g de tofu firme",
+        "2 huevos",
+        "Brotes de soya",
+        "3 cucharadas de salsa de pescado",
+        "2 cucharadas de azúcar de palma",
+        "1 cucharada de pasta de tamarindo",
+        "Cacahuates tostados",
+        "Cebollín",
+        "Lima",
+        "Chile seco en hojuelas"
+      ],
+      "steps": [
+        "Remojar los fideos de arroz en agua tibia por 20 minutos y escurrir.",
+        "Preparar la salsa mezclando salsa de pescado, azúcar de palma y pasta de tamarindo.",
+        "Cortar el tofu en cubos pequeños y dorarlo en el wok con aceite.",
+        "Saltear los camarones hasta que estén rosados, reservar junto al tofu.",
+        "Batir los huevos en el wok y revolver hasta que cuajen.",
+        "Añadir los fideos y la salsa, mezclar a fuego alto por 2 minutos.",
+        "Incorporar el tofu, camarones, huevo y brotes de soya.",
+        "Servir con cacahuates triturados, cebollín picado y un gajo de lima."
+      ]
     }
   ],
   "categories": [

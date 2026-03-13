@@ -5,6 +5,9 @@ export interface Recipe {
   category: string;
   difficulty: string;
   prepTime: string;
+  description?: string;
+  ingredients?: string[];
+  steps?: string[];
 }
 
 export interface Category {
