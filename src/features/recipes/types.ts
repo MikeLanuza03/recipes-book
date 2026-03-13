@@ -6,3 +6,8 @@ export interface Recipe {
   difficulty: string;
   prepTime: string;
 }
+
+export interface Category {
+  id: number;
+  name: string;
+}

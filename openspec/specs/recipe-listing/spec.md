@@ -49,8 +49,8 @@ The system SHALL display recipe cards in a responsive grid: 1 column on mobile, 
 - **THEN** recipe cards are displayed in 3 columns
 
 ### Requirement: Empty state
-The system SHALL display a message when no recipes are available.
+The system SHALL display a message when no recipes are available from the API. This state is distinct from the filtered empty state (when filters match no results).
 
 #### Scenario: No recipes returned
-- **WHEN** the API returns an empty array
+- **WHEN** the API returns an empty array and no filters are active
 - **THEN** the system displays a message indicating no recipes are available
