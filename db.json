@@ -188,11 +188,11 @@
       ]
     },
     {
-      "name": "Hot cakes",
+      "name": "Hotcakes",
       "description": "Panecillos calientes realizados con sartén",
       "category": "Mexicana",
       "difficulty": "Media",
-      "prepTime": "15 minutos",
+      "prepTime": "15 min",
       "image": "https://gourmet.iprospect.cl/wp-content/uploads/2024/12/HOTCAKES.jpg",
       "ingredients": [
         "Leche",
@@ -203,7 +203,7 @@
       "steps": [
         "Mezclar todo",
         "Calentar sartén con mantequilla",
-        "Colocar porcion de mezcla en el sartén"
+        "Colocar porción de mezcla en el sartén"
       ],
       "id": 7
     }
