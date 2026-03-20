@@ -55,7 +55,7 @@ export function RecipeDetailPage() {
 
       <h2 className="mt-6 text-3xl font-bold text-gray-900">{recipe.name}</h2>
 
-      <div className="mt-3 flex flex-wrap gap-2">
+      <div className="mt-3 flex flex-wrap items-center gap-2">
         <span className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800">
           {recipe.category}
         </span>
@@ -65,6 +65,20 @@ export function RecipeDetailPage() {
         <span className="rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
           {recipe.prepTime}
         </span>
+        <button
+          type="button"
+          onClick={() => {
+            const recipeUrl = `${window.location.origin}/recipes/${id}`;
+            const message = `¡Mira esta receta! 🍽️\n\n*${recipe.name}*\nCategoría: ${recipe.category}\n\n${recipeUrl}`;
+            window.open(
+              `https://wa.me/?text=${encodeURIComponent(message)}`,
+              "_blank"
+            );
+          }}
+          className="rounded-full bg-green-600 px-3 py-1 text-sm font-medium text-white hover:bg-green-700"
+        >
+          Compartir por WhatsApp
+        </button>
       </div>
 
       {recipe.description && (
