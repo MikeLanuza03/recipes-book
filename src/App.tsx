@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { RecipeList } from "./features/recipes/RecipeList";
 import { RecipeDetailPage } from "./features/recipes/RecipeDetailPage";
+import { RecipeCreatePage } from "./features/recipes/RecipeCreatePage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main className="mx-auto max-w-6xl px-8 py-8">
         <Routes>
           <Route path="/" element={<RecipeList />} />
+          <Route path="/recipes/new" element={<RecipeCreatePage />} />
           <Route path="/recipes/:id" element={<RecipeDetailPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

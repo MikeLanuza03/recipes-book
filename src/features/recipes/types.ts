@@ -10,6 +10,8 @@ export interface Recipe {
   steps?: string[];
 }
 
+export type CreateRecipeInput = Omit<Recipe, "id">;
+
 export interface Category {
   id: number;
   name: string;

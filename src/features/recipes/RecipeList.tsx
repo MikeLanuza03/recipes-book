@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { useGetRecipesQuery } from "./recipesApi";
 import { RecipeCard } from "./RecipeCard";
 import { RecipeSearchFilter } from "./RecipeSearchFilter";
@@ -48,6 +49,16 @@ export function RecipeList() {
 
   return (
     <div className="space-y-6">
+      <div className="flex items-center justify-between">
+        <h2 className="text-xl font-semibold text-gray-900">Recetas</h2>
+        <Link
+          to="/recipes/new"
+          className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          Agregar Receta
+        </Link>
+      </div>
+
       <RecipeSearchFilter
         searchTerm={searchTerm}
         onSearchChange={setSearchTerm}

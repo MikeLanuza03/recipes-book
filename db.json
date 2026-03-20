@@ -186,14 +186,52 @@
         "Incorporar el tofu, camarones, huevo y brotes de soya.",
         "Servir con cacahuates triturados, cebollín picado y un gajo de lima."
       ]
+    },
+    {
+      "name": "Hot cakes",
+      "description": "Panecillos calientes realizados con sartén",
+      "category": "Mexicana",
+      "difficulty": "Media",
+      "prepTime": "15 minutos",
+      "image": "https://gourmet.iprospect.cl/wp-content/uploads/2024/12/HOTCAKES.jpg",
+      "ingredients": [
+        "Leche",
+        "Harina",
+        "Mantequilla",
+        "Huevo"
+      ],
+      "steps": [
+        "Mezclar todo",
+        "Calentar sartén con mantequilla",
+        "Colocar porcion de mezcla en el sartén"
+      ],
+      "id": 7
     }
   ],
   "categories": [
-    { "id": 1, "name": "Mexicana" },
-    { "id": 2, "name": "Italiana" },
-    { "id": 3, "name": "Japonesa" },
-    { "id": 4, "name": "Ensaladas" },
-    { "id": 5, "name": "Española" },
-    { "id": 6, "name": "Tailandesa" }
+    {
+      "id": 1,
+      "name": "Mexicana"
+    },
+    {
+      "id": 2,
+      "name": "Italiana"
+    },
+    {
+      "id": 3,
+      "name": "Japonesa"
+    },
+    {
+      "id": 4,
+      "name": "Ensaladas"
+    },
+    {
+      "id": 5,
+      "name": "Española"
+    },
+    {
+      "id": 6,
+      "name": "Tailandesa"
+    }
   ]
 }
